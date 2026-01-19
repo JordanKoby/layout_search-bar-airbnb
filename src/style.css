@@ -21,7 +21,7 @@ body {
   margin-top: 20px;
 }
 
-.search-input {
+.search-card__input {
   box-sizing: border-box;
   width: 100%;
   height: 70px;
@@ -43,11 +43,11 @@ body {
   transition: all 0.3s ease;
 }
 
-.search-input:hover {
+.search-card__input:hover {
   box-shadow: 0 3px 8px rgba(61, 78, 97, 0.8);
 }
 
-.search-input:focus {
+.search-card__input:focus {
   font-weight: 900;
   color: #3d4e61;
 
@@ -58,11 +58,8 @@ body {
   outline: none;
 }
 
-.search-card--small {
+.search-card--small .search-card__input {
   margin-top: 20px;
-}
-
-.search-card--small .search-input {
   height: 42px;
 
   line-height: 42px;
