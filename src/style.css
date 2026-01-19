@@ -17,9 +17,8 @@ body {
   font-weight: 300;
 }
 
-.search-card[data-qa='big'] {
+.search-card--big {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .search-input {
@@ -59,7 +58,11 @@ body {
   outline: none;
 }
 
-.search-card[data-qa='small'] .search-input {
+.search-card--small {
+  margin-top: 20px;
+}
+
+.search-card--small .search-input {
   height: 42px;
 
   line-height: 42px;
